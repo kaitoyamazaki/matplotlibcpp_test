@@ -69,28 +69,28 @@ include CMakeFiles/plt.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/plt.dir/flags.make
 
-CMakeFiles/plt.dir/main.cpp.o: CMakeFiles/plt.dir/flags.make
-CMakeFiles/plt.dir/main.cpp.o: ../main.cpp
-CMakeFiles/plt.dir/main.cpp.o: CMakeFiles/plt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kaito/study/matplot/matplotlibcpp_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/plt.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/plt.dir/main.cpp.o -MF CMakeFiles/plt.dir/main.cpp.o.d -o CMakeFiles/plt.dir/main.cpp.o -c /home/kaito/study/matplot/matplotlibcpp_test/main.cpp
+CMakeFiles/plt.dir/3d_plot.cpp.o: CMakeFiles/plt.dir/flags.make
+CMakeFiles/plt.dir/3d_plot.cpp.o: ../3d_plot.cpp
+CMakeFiles/plt.dir/3d_plot.cpp.o: CMakeFiles/plt.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kaito/study/matplot/matplotlibcpp_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/plt.dir/3d_plot.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/plt.dir/3d_plot.cpp.o -MF CMakeFiles/plt.dir/3d_plot.cpp.o.d -o CMakeFiles/plt.dir/3d_plot.cpp.o -c /home/kaito/study/matplot/matplotlibcpp_test/3d_plot.cpp
 
-CMakeFiles/plt.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plt.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kaito/study/matplot/matplotlibcpp_test/main.cpp > CMakeFiles/plt.dir/main.cpp.i
+CMakeFiles/plt.dir/3d_plot.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plt.dir/3d_plot.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kaito/study/matplot/matplotlibcpp_test/3d_plot.cpp > CMakeFiles/plt.dir/3d_plot.cpp.i
 
-CMakeFiles/plt.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plt.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kaito/study/matplot/matplotlibcpp_test/main.cpp -o CMakeFiles/plt.dir/main.cpp.s
+CMakeFiles/plt.dir/3d_plot.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plt.dir/3d_plot.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kaito/study/matplot/matplotlibcpp_test/3d_plot.cpp -o CMakeFiles/plt.dir/3d_plot.cpp.s
 
 # Object files for target plt
 plt_OBJECTS = \
-"CMakeFiles/plt.dir/main.cpp.o"
+"CMakeFiles/plt.dir/3d_plot.cpp.o"
 
 # External object files for target plt
 plt_EXTERNAL_OBJECTS =
 
-plt: CMakeFiles/plt.dir/main.cpp.o
+plt: CMakeFiles/plt.dir/3d_plot.cpp.o
 plt: CMakeFiles/plt.dir/build.make
 plt: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 plt: CMakeFiles/plt.dir/link.txt
