@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/plt.dir/3d_plot.cpp.o"
-  "CMakeFiles/plt.dir/3d_plot.cpp.o.d"
+  "CMakeFiles/plt.dir/animation.cpp.o"
+  "CMakeFiles/plt.dir/animation.cpp.o.d"
   "plt"
   "plt.pdb"
 )
